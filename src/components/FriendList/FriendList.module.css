@@ -1,0 +1,41 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.li {
+  border: 1.5px solid black;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.image {
+  margin-bottom: 5px;
+}
+
+.name {
+  margin-bottom: 5px;
+  color: black;
+  font-weight: 600;
+}
+
+.status {
+  font-size: 12px;
+}
+
+.isOffline {
+  color: red;
+}
+
+.isOnline {
+  color: green;
+}
+
+::root {
+  display: block;
+}
