@@ -1,0 +1,32 @@
+.table {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  border-collapse: collapse;
+  padding: 20px 0;
+}
+
+.transactionGraph,
+.itemName,
+.transactionItem,
+.transactionTypeItem {
+  border: 1px solid black;
+  padding: 8px;
+  width: 320px;
+}
+
+.transactionTypeItem {
+  text-align: left;
+  padding: 8px 120px;
+}
+
+.itemName {
+  background-color: rgb(49, 48, 48);
+  color: white;
+}
+
+.isGray {
+  background-color: rgba(128, 128, 128, 0.466);
+}
