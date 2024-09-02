@@ -1,5 +1,5 @@
 import clsx from "clsx";
-import s from "./FriendList.module.css";
+import s from "../FriendList/FriendList.module.css";
 
 const FriendListItem = ({ avatar, name, status }) => {
   return (
